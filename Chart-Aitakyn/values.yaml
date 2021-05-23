@@ -1,6 +1,0 @@
-# Default Values for my Helm Chart
-
-container:
-  image: aitakynsultan/python:latest
-
-replicaCount: 2

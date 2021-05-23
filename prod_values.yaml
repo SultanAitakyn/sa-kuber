@@ -1,5 +1,0 @@
-# My Custom values for Helm Chart
-container:
-  image: aitakynsultan/python:latest
-
-replicaCount: 4

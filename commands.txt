@@ -1,0 +1,8 @@
+1) Download database:
+helm upgrade --install postgres-helm ./postgres-helm
+
+2) Apply yaml files for django backend:
+kubectl apply -f ConfigMap.yaml -f Secrets.yaml -f DjangoDeployment.yaml
+
+3) Run backend in 8000 port:
+kubectl port-forward "backend pod name" 8000:8000
